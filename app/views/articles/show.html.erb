@@ -1,0 +1,6 @@
+<h1><%= @article.title %></h1>
+<p><%= @article.content %></p>
+
+<%= link_to "Edit article", edit_article_path, class: "btn btn-success mb-3"  %> <br>
+
+<%= link_to "Back to list", articles_path %>
